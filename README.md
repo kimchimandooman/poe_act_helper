@@ -41,40 +41,11 @@ quicksilver 는 해당 부분에 플라스크가 가득찬 경우 2번~ 5번 까
 
 사용하지 않는 기능은 주석 처리를 해야합니다. 
 예를 들어 bv를 사용하지않는다면  ;  를 앞에 달아주어 주석처리를 해야합니다. 
-; === 매크로 시작 함수 ===
-StartMacro() {
-    global isRunning
-    if (!isRunning) {
-        isRunning := true
-        SetTimer LifeCheck, 100
-        SetTimer UtilityCheck, 100
-        ; SetTimer bvCheck, 100
-        SetTimer pgCheck, 100
-        SetTimer tincCheck, 100
-        TrayTip("매크로", "▶ 실행 중... (F3으로 정지)", 1)
-    }
-}
+<img width="625" height="525" alt="주석처리1" src="https://github.com/user-attachments/assets/5342c84c-8d19-4ed6-8c4a-a23cd5ac1cb6" />
 
 
 이후에 해당 함수를 아래의 형식과 같게 전부 주석처리 해야합니다.
+<img width="780" height="417" alt="주석처리2" src="https://github.com/user-attachments/assets/93e65c41-77ed-4df8-a611-e44ca4ea3b0e" />
 
-;     bvCheck() {
-;     global bv_img, isRunning
-;     static isWaiting := false
 
-;     if (isWaiting)
-;         return
-
-;     if ImageSearch(&foundX, &foundY, 1635, 1010, 1690, 1080, "*150 " bv_img) {
-;         isWaiting := true
-;         SetTimer bvCheck, 0
-
-;         Send("{T}")
-;         Sleep(Random(2500, 2800)) ; BV 유지 보수 간격
-
-;         isWaiting := false
-;         if (isRunning)
-;             SetTimer bvCheck, 100
-;     }
-; }
 
