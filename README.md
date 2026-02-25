@@ -15,13 +15,27 @@ hp는 해당 부분에 검은색을 찾고 찾으면 1번을 눌러주는 기능
 
 
 <img width="213" height="219" alt="hp" src="https://github.com/user-attachments/assets/cb78a76e-225c-4296-a639-7164bab2d81e" />
+
+
+
+
 quicksilver 는 해당 부분에 플라스크가 가득찬 경우 2번~ 5번 까지 눌러주는 기능입니다.
 
 
 <img width="247" height="110" alt="유틸" src="https://github.com/user-attachments/assets/1ce8072a-691b-4a03-81ed-6bd0b65c4785" />
 
 
+
+
+
+
 <img width="328" height="181" alt="bv" src="https://github.com/user-attachments/assets/d3bbd8f2-188b-4b59-8049-a14760954f87" />
+
+
+
+
+
+
 
 
 
