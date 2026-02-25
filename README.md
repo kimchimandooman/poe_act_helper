@@ -2,6 +2,10 @@
 #Requires AutoHotkey v2.0
 https://www.autohotkey.com/
 
+
+오토핫키의 이미지 서칭을 활용하여 플라스크 자동화, bv, Plague Bearer, 팅크 를 자동으로 사용해주는 스크립트입니다.
+
+
 ====주의사항====
 
 
@@ -15,8 +19,10 @@ hp는 해당 부분에 검은색을 찾고 찾으면 1번을 눌러주는 기능
 
 
 <img width="213" height="219" alt="hp" src="https://github.com/user-attachments/assets/cb78a76e-225c-4296-a639-7164bab2d81e" />
+Sleep(Random(4000, 4250)) 
+슬립이 4~ 4.25초로 길게 설정해놨습니다. 패파가 아니라면 2~ 3초로 설정 해주는게 좋을거 같습니다. 
 
-
+<img width="697" height="423" alt="스크린샷 2026-02-25 185558" src="https://github.com/user-attachments/assets/2694e265-c3ed-40ea-8d4f-c11aaf082925" />
 
 
 quicksilver 는 해당 부분에 플라스크가 가득찬 경우 2번~ 5번 까지 눌러주는 기능입니다.
